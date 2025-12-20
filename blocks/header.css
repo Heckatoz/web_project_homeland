@@ -18,8 +18,10 @@
 }
 
 .header__title {
+  font-family: "Inter";
   width: 720px;
   font-size: 96px;
+  font-style: normal;
   text-align: center;
   line-height: 100px;
   font-weight: 900;
