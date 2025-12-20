@@ -1,0 +1,30 @@
+@import url("../vendor/normalize.css");
+
+@import url("../blocks/header.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/footer.css");
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+.page {
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: auto;
+  color: #ffffff;
+  background-color: #2a2c2f;
+  font-family: Inter, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 544px) {
+}
