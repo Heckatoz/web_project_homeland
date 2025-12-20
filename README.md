@@ -18,4 +18,4 @@ Proyecto de Sprint 5 que consiste en una pagina web responsiva que se ajusta a d
 
 ## Enlace al proyecto
 
-[Ver proyecto en vivo](https://tu-usuario.github.io/web_project_homeland/)
+[Ver proyecto en vivo](https://heckatoz.github.io/web_project_homeland/)
