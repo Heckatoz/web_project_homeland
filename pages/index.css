@@ -1,15 +1,7 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
 
+@import url("../blocks/page.css");
 @import url("../blocks/header.css");
-@import url("../blocks/intro.css");
+@import url("../blocks/content.css");
 @import url("../blocks/footer.css");
-
-.page {
-  max-width: 1280px;
-  min-height: 100vh;
-  margin: auto;
-  color: #ffffff;
-  background-color: #2a2c2f;
-  font-family: "Inter";
-}
