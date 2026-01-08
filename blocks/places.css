@@ -1,0 +1,158 @@
+.places {
+  margin: 92px auto 0;
+  width: 90%;
+  max-width: 1184px;
+}
+
+.places__item {
+  display: grid;
+  column-gap: 40px;
+}
+
+.places__item:not(:first-of-type) {
+  margin-top: 80px;
+}
+
+.places__title {
+  margin: 0;
+  font-size: 72px;
+  line-height: 1.5;
+  width: 460px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.places__img {
+  width: 100%;
+  margin-top: 48px;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.places__container-artists {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.places__artists-heading {
+  font-size: 12px;
+  line-height: auto;
+  margin-top: 85px;
+  color: #aaaaaa;
+}
+
+.places__artists {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.places__paragraph-container {
+  grid-column: 2;
+  grid-row: 2/5;
+}
+
+.places__paragraph {
+  width: 100%;
+  font-size: 18px;
+  line-height: 163%;
+  font-weight: normal;
+  margin-top: 48px;
+}
+
+.places__paragraph:first {
+  margin-top: 48px;
+}
+
+.places__paragraph:last-of-type {
+  margin-top: 25px;
+}
+
+.places__button {
+  margin: 48px auto 0;
+  padding-top: 15px;
+  text-decoration: none;
+  text-align: center;
+  width: 289px;
+  height: 33px;
+  font-size: 18px;
+  line-height: auto;
+  color: #fff;
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  border-radius: 4px;
+}
+
+.places__button:hover {
+  opacity: 25%;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    margin-top: 88px;
+    margin-left: 24px;
+  }
+
+  .places__item:not(:first-of-type) {
+    margin-top: 72px;
+  }
+
+  .places__title {
+    margin: 0;
+    font-size: 42px;
+    line-height: 46px;
+    width: 340px;
+  }
+
+  .places__artists-heading {
+    margin-top: 0;
+  }
+
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    font-weight: normal;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places {
+    margin-top: 62px;
+    margin-left: 0;
+  }
+
+  .places__item:not(:first-of-type) {
+    margin-top: 50px;
+  }
+
+  .places__title {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 32px;
+    line-height: 35px;
+    width: 288px;
+    margin-left: 16px;
+  }
+
+  .places__img {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .places__container-artists {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 30px;
+    margin-left: 16px;
+  }
+
+  .places__paragraph-container {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: 16px;
+  }
+
+  .places__button {
+    grid-column: 1;
+    grid-row: 5;
+    width: 288px;
+  }
+}
